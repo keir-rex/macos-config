@@ -12,3 +12,7 @@ echo 'source "$HOME/.sdkman/bin/sdkman-init.sh"' >> ~/.zshrc
 
 # Global NPM Packages
 npm install -g nd
+
+# Spectacle
+curl https://s3.amazonaws.com/spectacle/downloads/Spectacle+1.2.zip > ~/Downloads/spectacle.zip
+cp -r ~/Downloads/Spectacle.app /Applications
