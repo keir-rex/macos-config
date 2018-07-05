@@ -6,5 +6,6 @@ echo "export PATH=/usr/local/bin:$PATH" >> ~/.zshrc
 
 # TODO;
 
-## symlinks (git, etc)
-## ??
+## aliases (git, etc)
+## configure spectacle
+## more
