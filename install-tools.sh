@@ -6,19 +6,19 @@ if ! hash brew 2>/dev/null; then
 fi
 
 # Install CLI tools
-brew install git coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep tree ag openssh gpg
+brew install git coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep tree ag openssh gpg watch
 brew install vim --with-override-system-vi screen
 
 # Install newer shells
-brew install bash zsh zsh-completions
+brew install bash zsh zsh-completions zsh-syntax-highlighting
 
 # Install programming utils
-brew install go node
+brew install go node python3
 brew cask install iterm2
 
 # Install cloud-utils
-brew install awscli google-cloud-sdk 
-brew cask install minikube minishift kubernetes-helm
+brew cask install google-cloud-sdk minikube minishift
+brew install awscli kubernetes-helm openshift-cli docker ansible
 
 # Install usability utilities
 brew cask install spectacle karabiner-elements bettertouchtool
