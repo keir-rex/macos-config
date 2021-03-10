@@ -21,10 +21,10 @@ brew cask install google-cloud-sdk minikube minishift
 brew install awscli kubernetes-helm openshift-cli docker ansible
 
 # Install usability utilities
-brew cask install spectacle karabiner-elements bettertouchtool
+brew cask install spectacle karabiner-elements
 
 # Install full GUI applications
-brew cask install spotify vscodium google-chrome 1password
+brew cask install spotify vscodium google-chrome 1password postman 1password-cli
 
 brew cleanup
 
